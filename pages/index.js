@@ -6,11 +6,13 @@ import Layout from '../components/Layout'
  
 const MyApp = () => {
    return(
-   <Layout>   
+   <Layout>
+   {/* 
    <div>   
      <h1>Hello Next.js</h1>
      <Button floated="right" content='My Button' icon='add circle' primary />
    </div>
+   */}
    </Layout>
    )
 }

@@ -1,17 +1,14 @@
 import React from "react";
-import { Menu } from "semantic-ui-react";
+import { Header, Icon } from "semantic-ui-react";
 
-const Header = () =>{
-	return (
-		<Menu style={{ marginTop: "30px" }}>
-       		<Menu.Item>Juniarto</Menu.Item>
-        	<Menu.Menu position="right">
-         	<Menu.Item>Inbox</Menu.Item>
-         	<Menu.Item>+</Menu.Item>
-       		</Menu.Menu>
-     </Menu>
-	
-	);
+const PageHeader = () =>{
+    return(
+        <Header as='h2' style={{ marginTop: "30px" }}>
+            <Icon name='microchip' />
+            <Header.Content>Gpu4All.net</Header.Content>
+            <Header.Subheader>Low Cost and Affordable Gpu Sharing Network</Header.Subheader>
+        </Header>
+    );
 };
 
-export default Header;
+export default PageHeader;
